@@ -7,6 +7,7 @@ public class Result {
 		char c1 = 'a';
 		float f1 = 1.5f;
 		double d1 = 2.8;
+		boolean b1 = true;
 		
 		System.out.printf("i1 = %d\n", i1);
 		System.out.printf("i1/4 = %d\n", i1 / 4);
@@ -19,6 +20,7 @@ public class Result {
 		System.out.printf("f1 + d1 = %.1f\n", f1 + d1);
 		System.out.printf("(int)(f1 + d1) = %d\n", (int) (f1 + d1));
 		System.out.printf("(int)f1 + (int)d1 = %d\n", (int) f1 + (int) d1);
+		System.out.println("b1 = " + b1);
 	}
 
 }
