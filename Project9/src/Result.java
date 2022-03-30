@@ -14,6 +14,7 @@ public class Result {
 		System.out.printf("(c1 + ONE) = %c\n", c1 + ONE);
 		System.out.printf("(c1 + ONE) = %5s\n", c1 + ONE);
 		System.out.printf("i2 + f1 = %f\n", i2 + f1);
+		
 	}
 
 }
