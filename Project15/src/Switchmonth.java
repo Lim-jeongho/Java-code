@@ -21,16 +21,16 @@ public class Switchmonth {
 			days = 30;
 			break;
 		case 2:
-			if(((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0))	// À±³â
+			if(((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0))	// ìœ¤ë…„
 				days = 29;
-			else 																// Æò³â
+			else 									// í‰ë…„
 				days = 28;
 			break;
 			default:
-				System.out.println("Àß¸øµÈ ´ŞÀÔ´Ï´Ù");
+				System.out.println("ì˜ëª»ëœ ë‹¬ì…ë‹ˆë‹¤");
 				break;
 			}
-		System.out.println("4¿ù´ŞÀº " + days + "ÀÏÀÔ´Ï´Ù");
+		System.out.println("4ì›”ë‹¬ì€ " + days + "ì¼ì…ë‹ˆë‹¤");
 		}
 
 }
