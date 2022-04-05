@@ -3,21 +3,24 @@ public class swich {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("µî¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë“±ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		int rank = in.nextInt();
 		
 		switch (rank) {
 		case 1:
-			System.out.println("1µîÀÔ´Ï´Ù");
+			System.out.println("1ë“±ìž…ë‹ˆë‹¤");
 			break;
 		case 2:
-			System.out.println("2µîÀÔ´Ï´Ù");
+			System.out.println("2ë“±ìž…ë‹ˆë‹¤");
 			break;
 		case 3:
-			System.out.println("3µîÀÔ´Ï´Ù");
+			System.out.println("3ë“±ìž…ë‹ˆë‹¤");
 			break;
-		default:
-			System.out.println("µî¿ÜÀÔ´Ï´Ù");
+                case 4:
+                        Syayem.out.println("4ë“±ìž…ë‹ˆë‹¤");
+                        break;
+  		default:
+			System.out.println("ë“±ì™¸ìž…ë‹ˆë‹¤");
 		}
 	}
 
