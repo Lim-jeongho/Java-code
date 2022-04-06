@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Switchmonth {
 	public static void main(String[] args) {
-		int month = 4;
+		Scanner in = new Scanner(System.in);
+		System.out.print("1~12월달을 입력하세요 : ");
+		int month = in.nextInt();
 		int year = 2022;
 		int days = 0;
 		
@@ -30,7 +33,7 @@ public class Switchmonth {
 				System.out.println("잘못된 달입니다");
 				break;
 			}
-		System.out.println("4월달은 " + days + "일입니다");
+		System.out.println(month + "월 달은 " + days + "일입니다");
 		}
 
 }
