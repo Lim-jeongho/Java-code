@@ -3,7 +3,7 @@ public class Switch {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num = in.nextInt();
 		
 		switch (num) {
