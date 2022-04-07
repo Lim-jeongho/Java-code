@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Switchmonth {
 	public static void main(String[] args) {
-		int month = 4;
+		Scanner in = new Scanner(System.in);
+		System.out.print("1~12ì›”ë‹¬ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+		int month = in.nextInt();
 		int year = 2022;
 		int days = 0;
 		
@@ -21,16 +24,16 @@ public class Switchmonth {
 			days = 30;
 			break;
 		case 2:
-			if(((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0))	// À±³â
+			if(((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0))	// ìœ¤ë…„
 				days = 29;
-			else 																// Æò³â
+			else 									// í‰ë…„
 				days = 28;
 			break;
 			default:
-				System.out.println("Àß¸øµÈ ´ŞÀÔ´Ï´Ù");
+				System.out.println("ì˜ëª»ëœ ë‹¬ì…ë‹ˆë‹¤");
 				break;
 			}
-		System.out.println("4¿ù´ŞÀº " + days + "ÀÏÀÔ´Ï´Ù");
+		System.out.println(month + "ì›” ë‹¬ì€ " + days + "ì¼ì…ë‹ˆë‹¤");
 		}
 
 }
