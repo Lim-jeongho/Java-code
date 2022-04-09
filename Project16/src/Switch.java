@@ -3,28 +3,28 @@ public class Switch {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int num = in.nextInt();
 		
 		switch (num) {
 		case 9:
-			System.out.println("9");
+			System.out.println("*********");
 		case 8:
-			System.out.println("8");
+			System.out.println("********");
 		case 7:
-			System.out.println("7");
+			System.out.println("*******");
 		case 6:
-			System.out.println("6");
+			System.out.println("******");
 		case 5:
-			System.out.println("5");
+			System.out.println("*****");
 		case 4:
-			System.out.println("4");
+			System.out.println("****");
 		case 3:
-			System.out.println("3");
+			System.out.println("***");
 		case 2:
-			System.out.println("2");
+			System.out.println("**");
 		case 1:
-			System.out.println("1");
+			System.out.println("*");
 		case 0:
 			System.out.println("0");
 		}
