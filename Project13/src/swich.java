@@ -19,6 +19,10 @@ public class swich {
                 case 4:
                         Syayem.out.println("4등입니다");
                         break;
+		case 5:
+				
+			 Syayem.out.println("5등입니다");	
+			break;
   		default:
 			System.out.println("등외입니다");
 		}
