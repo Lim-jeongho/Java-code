@@ -2,7 +2,7 @@ public class Overload1 {
 
 	public static void main(String[] args) {
 		int i1 = 3, i2 = 7, i3 = 10;
-		double d1 = 7.0, d2 = 3.0;
+		double d1 = 7.0, d2 = 3.0; d3 = 5.0;
 		
 		System.out.printf("max(%d, %d) = %d\n", i1, i2, max(i1, i2));
 		System.out.printf("max(%.1f, %.1f) = %.1f\n", d1, d2, max(d1, d2));
@@ -12,8 +12,8 @@ public class Overload1 {
 		int result = n1 > n2 ? n1 : n2;
 		return result;
 	}
-	public static double max(double n1, double n2) {
-		double result = n1 > n2 ? n1 : n2;
+	public static double max(double n1, double n2, double n3) {
+		double result = n1 > n3 ? n1 : n3;
 		return result;
 	}
 	public static int max(int n1, int n2, int n3) {
