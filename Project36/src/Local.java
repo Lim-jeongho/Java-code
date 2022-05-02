@@ -2,13 +2,14 @@ public class Local {
 	public static void main(String[] args) {
 		int a = 0;
 		double b;
-		// System.out.print(b); -- ÃÊ±âÈ­ µÇÁö ¾Ê°í´Â »ç¿ëÇÒ ¼ö ¾ø´Ù.
+		// System.out.print(b); -- ì´ˆê¸°í™” ë˜ì§€ ì•Šê³ ëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
 		System.out.println(a);
-		// System.out.print(a + c); -- cº¯¼ö´Â ¾ÆÁ÷ ¼±¾ğµÇÁö ¾Ê¾Ò±â ‹š¹®¿¡ »ç¿ëÇÒ ¼ö ¾ø´Ù.
+		// System.out.print(a + c); -- cë³€ìˆ˜ëŠ” ì•„ì§ ì„ ì–¸ë˜ì§€ ì•Šì•˜ê¸° Â‹Âšë¬¸ì— ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
 		int c = 0;
 		
 		for (int e= 0; e < 10; e++) {
 			System.out.print(e);
+                // int a = 5; -- ì •ìˆ˜íƒ€ì… ë³€ìˆ˜ aë¥¼ ì´ë¯¸ ì„ ì–¸í–ˆì—ˆìœ¼ë¯€ë¡œ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
 		}
 	}
 
