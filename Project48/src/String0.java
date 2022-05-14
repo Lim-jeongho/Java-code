@@ -12,6 +12,11 @@ public class String0 {
 		
 		System.out.println(s1.compareTo(s3));  // 문자열을 사전 순으로 비교해 정수 값을 반환
 		System.out.println(s1.compareToIgnoreCase(s4));  // 대,소문자를 무시하고 문자열을 사전 순으로 비교
+		System.out.println(s3.compareTo(s4));
+		System.out.println("Hi, Java".compareToIgnoreCase("hi, java"));
+		
+		System.out.printf("'J' - 'C' = %d\n" 'J' - 'C');
+		System.out.printf("'C' - 'j' = %d\n" 'C' - 'j');
 		}
 
 }
