@@ -4,7 +4,7 @@
 	<comment></comment>
 	<projects>
 	</projects>
-	<buildSpec>
+	<buildSpec> 
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
@@ -23,6 +23,6 @@
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
 				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
 			</matcher>
-		</filter>
-	</filteredResources>
+		</filter> 
+	</filteredResources> 
 </projectDescription>
