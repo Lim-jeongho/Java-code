@@ -4,9 +4,12 @@ public class Ball extends Circle{
 		this.color = color;
 	}
 	public void findColor() {
-		System.out.println(color + " °øÀÌ´Ù.");
+		System.out.println(color + " ê³µì´ë‹¤.");
+	}
+	public void findArea() {
+		System.out.println("ë„“ì´ëŠ” 4*(Ï€*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„)ì´ë‹¤.");
 	}
 	public void findVolume() {
-		System.out.println("ºÎÇÇ´Â 4/3*(¥ğ*¹İÁö¸§*¹İÁö¸§*¹İÁö¸§)ÀÌ´Ù.");
+		System.out.println("ë¶€í”¼ëŠ” 4/3*(Ï€*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„)ì´ë‹¤.");
 	}
 }
