@@ -20,7 +20,7 @@ public class OverType {
 	public static void main(String[] args) {
 		Vehicle v = new Car();
 		System.out.println(v.name);  // Vehicle타입의 name필드에 접근한다.
-		v.whoami();  // v의 실제 객체는 Car타입이므로 Car타입의 whoami() 메서드 호출
-		v.move();
+		v.whoami();  // v의 실제 객체는 Car타입이므로 Car타입의 whoami() 메서드 호출한다.
+		v.move();   // 정적 메서드이므로 부모객체의 메서드를 호출한다.
 	}
 }
