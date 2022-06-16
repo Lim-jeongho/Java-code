@@ -1,25 +1,25 @@
 class Vehicle {
-	String name = "Å» °Í";
+	String name = "íƒˆ ê²ƒ";
 	void whoami() {
-		System.out.println("³ª´Â Å» °ÍÀÌ´Ù.");
+		System.out.println("ë‚˜ëŠ” íƒˆ ê²ƒì´ë‹¤.");
 		}
 	static void move() {
-		System.out.println("ÀÌµ¿ÇÏ´Ù.");
+		System.out.println("ì´ë™í•˜ë‹¤.");
 	}
 }
 class Car extends Vehicle {
-	String name = "ÀÚµ¿Â÷";
+	String name = "ìë™ì°¨";
 	void whoami() {
-		System.out.println("³ª´Â ÀÚµ¿Â÷ÀÌ´Ù.");
+		System.out.println("ë‚˜ëŠ” ìë™ì°¨ì´ë‹¤.");
 	}
 	static void move() {
-		System.out.println("´Ş¸®´Ù.");
+		System.out.println("ë‹¬ë¦¬ë‹¤.");
 	}
 }
 public class OverType {
 	public static void main(String[] args) {
 		Vehicle v = new Car();
-		System.out.println(v.name);
+		System.out.println(v.name);  // Vehicleíƒ€ì…ì˜ nameí•„ë“œì— ì ‘ê·¼í•œë‹¤.
 		v.whoami();
 		v.move();
 	}
