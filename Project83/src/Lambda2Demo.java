@@ -1,7 +1,6 @@
 interface Negative {
 	int neg(int x);
 }
-
 public class Lambda2Demo {
 	public static void main(String[] args) {
 		Negative n;
