@@ -3,15 +3,15 @@ import java.util.Comparator;
 
 public class ComparatorDemo {
 	public static void main(String[] args) {
-		String[] strings = { "·Î¸¶¿¡ °¡¸é ·Î¸¶¹ıÀ» µû¸£¶ó.",
-				"½Ã°£Àº ±İÀÌ´Ù.", "ÆæÀº Ä®º¸´Ù °­ÇÏ´Ù." };
+		String[] strings = { "ë¡œë§ˆì— ê°€ë©´ ë¡œë§ˆë²•ì„ ë”°ë¥´ë¼.",
+				"ì‹œê°„ì€ ê¸ˆì´ë‹¤.", "íœì€ ì¹¼ë³´ë‹¤ ê°•í•˜ë‹¤." };
 		Arrays.sort(strings, new Comparator<String>() {
 			public int compare(String first, String second) {
 				return first.length() - second.length();
 			}
 		});
 		for (String s : strings)
-			System.out.println(s);
+			System.out.println(s); 
 	}
 
 }
