@@ -11,7 +11,7 @@ class Rectangle implements Comparable {
 		return width * height;
 	}
 	public String toString() {
-		return "»ç°¢Çü[³ĞÀÌ=" + width + ", ³ôÀÌ=" + height + "]";
+		return "Â»Ã§Â°Â¢Ã‡Ã¼[Â³ÃÃ€ÃŒ=" + width + ", Â³Ã´Ã€ÃŒ=" + height + "]";
 	}
 	
 	public int compareTo(Object o) {
@@ -31,6 +31,6 @@ public class ComparableDemo {
 				new Rectangle(2, 10), new Rectangle(5, 5)};
 		Arrays.sort(rectangles);
 		for (Rectangle r : rectangles)
-			System.out.println(r);
+			System.out.println(r); 
 	}
 }
