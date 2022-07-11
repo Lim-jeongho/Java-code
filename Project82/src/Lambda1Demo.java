@@ -2,12 +2,12 @@ import java.util.Arrays;
 
 public class Lambda1Demo {
 	public static void main(String[] args) {
-		String[] strings = { "·Î¸¶¿¡ °¡¸é ·Î¸¶¹ýÀ» µû¸£¶ó.",
-				"½Ã°£Àº ±ÝÀÌ´Ù.", "ÆæÀº Ä®º¸´Ù °­ÇÏ´Ù." };
+		String[] strings = { "ë¡œë§ˆì— ê°€ë©´ ë¡œë§ˆë²•ì„ ë”°ë¥´ë¼.",
+				"ì‹œê°„ì€ ê¸ˆì´ë‹¤.", "íŽœì€ ì¹¼ë³´ë‹¤ ê°•í•˜ë‹¤." };
 		
 		Arrays.sort(strings, (first, second) -> first.length() - second.length());
 		
 		for (String s : strings)
-			System.out.println(s);
+			System.out.println(s); 
 	}
 }

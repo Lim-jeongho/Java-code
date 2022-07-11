@@ -1,14 +1,14 @@
 public class LocalClassDemo {
-	private String s1 = "¿ÜºÎ";
+	private String s1 = "Â¿ÃœÂºÃ";
 	
 	void method() {
 		int x = 1;
 		class LocalClass {
-			String s2 = "³»ºÎ";
+			String s2 = "Â³Â»ÂºÃ";
 			String s3 = s1;
 			
 			public void show() {
-				System.out.println("Áö¿ª Å¬·¡½º");
+				System.out.println("ÃÃ¶Â¿Âª Ã…Â¬Â·Â¡Â½Âº");
 			}
 		}
 		LocalClass lc = new LocalClass();
@@ -18,6 +18,6 @@ public class LocalClassDemo {
 	
 	public static void main(String[] args) {
 		LocalClassDemo lcd = new LocalClassDemo();
-		lcd.method();
+		lcd.method(); 
 	}
 }

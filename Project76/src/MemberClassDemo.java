@@ -1,14 +1,14 @@
 public class MemberClassDemo {
-	private String secret = "ºñ°ø°³";
-	String s = "¿ÜºÎ";
+	private String secret = "ë¹„ê³µê°œ";
+	String s = "ì™¸ë¶€";
 	
 	class MemberClass {
-		String s = "³»ºÎ";
+		String s = "ë‚´ë¶€";
 		public void show1() {
-			System.out.println("ÀÎ½ºÅÏ½º ¸â¹ö Å¬·¡½º");
+			System.out.println("ì¸ìŠ¤í„´ìŠ¤ ë©¤ë²„ í´ë˜ìŠ¤");
 			System.out.println(secret);
-			System.out.println(s);   // 6ÇàÀÇ ¸â¹ö s
-			System.out.println(MemberClassDemo.this.s);  // 3ÇàÀÇ ¸â¹ö s
+			System.out.println(s);   // 6í–‰ì˜ ë©¤ë²„ s
+			System.out.println(MemberClassDemo.this.s);  // 3í–‰ì˜ ë©¤ë²„ s
 		}
 	}
 	public static void main(String[] args) {
@@ -16,6 +16,6 @@ public class MemberClassDemo {
 		MemberClassDemo.MemberClass m1 = m.new MemberClass();
 		
 		System.out.println(m1.s);
-		m1.show1();
+		m1.show1(); 
 	}
 }
