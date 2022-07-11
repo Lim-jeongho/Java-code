@@ -10,6 +10,6 @@ public class InnerInterface implements Icon.Touchable {
 	
 	public static void main(String[] args) {
 		Icon.Touchable btn = new InnerInterface();
-		btn.touch(); 
+		btn.touch();  
 	}
 }
