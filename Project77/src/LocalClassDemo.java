@@ -18,6 +18,6 @@ public class LocalClassDemo {
 	
 	public static void main(String[] args) {
 		LocalClassDemo lcd = new LocalClassDemo();
-		lcd.method(); 
+		lcd.method();  
 	}
 }
