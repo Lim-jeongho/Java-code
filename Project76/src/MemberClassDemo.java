@@ -16,6 +16,6 @@ public class MemberClassDemo {
 		MemberClassDemo.MemberClass m1 = m.new MemberClass();
 		
 		System.out.println(m1.s);
-		m1.show1(); 
+		m1.show1();  
 	}
 }
