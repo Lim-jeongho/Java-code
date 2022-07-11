@@ -12,6 +12,6 @@ public class Lambda2Demo {
 		};
 		n = (int x) -> -x;
 		n = (x) -> -x;
-		n = x -> -x;
+		n = x -> -x; 
 	}
 }
