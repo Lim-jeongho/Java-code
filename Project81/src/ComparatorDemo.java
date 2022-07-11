@@ -11,7 +11,7 @@ public class ComparatorDemo {
 			}
 		});
 		for (String s : strings)
-			System.out.println(s); 
+			System.out.println(s);
 	}
 
 }
