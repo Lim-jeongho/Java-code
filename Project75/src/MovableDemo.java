@@ -17,7 +17,7 @@ public class MovableDemo {
 		m.move(5);;
 		Car c = (Car) m;
 		c.move(10);
-		c.show(); 
+		c.show();  
 	}
 
 }

@@ -8,6 +8,6 @@ public class Lambda1Demo {
 		Arrays.sort(strings, (first, second) -> first.length() - second.length());
 		
 		for (String s : strings)
-			System.out.println(s); 
+			System.out.println(s);
 	}
 }

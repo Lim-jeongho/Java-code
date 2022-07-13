@@ -31,6 +31,6 @@ public class ComparableDemo {
 				new Rectangle(2, 10), new Rectangle(5, 5)};
 		Arrays.sort(rectangles);
 		for (Rectangle r : rectangles)
-			System.out.println(r); 
+			System.out.println(r);
 	}
 }
