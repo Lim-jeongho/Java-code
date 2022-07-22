@@ -10,6 +10,6 @@ public class StringBuilderDemo {
 		sb = sb.append("!");
 		System.out.println(sb.hashCode());
 		
-		System.out.println(sb.replace(0, 2, "Good bye").insert(0,  "Java, "));
+		System.out.println(sb.replace(0, 2, "Good bye").insert(0,  "Java, ")); 
 	}
 }
