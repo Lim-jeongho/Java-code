@@ -3,16 +3,16 @@ class Garbage {
 	
 	public Garbage(int no) {
 		this.no = no;
-		System.out.printf("Garbage(%d) »ý¼º\n", no);
+		System.out.printf("Garbage(%d) Â»Ã½Â¼Âº\n", no);
 	}
 	protected void finalize() {
-		System.out.printf("Garbage(%d) ¼ö°Å\n", no);
+		System.out.printf("Garbage(%d) Â¼Ã¶Â°Ã…\n", no);
 	}
 }
 public class GarbageDemo {
 	public static void main(String[] args) {
 		for(int i = 0; i < 3; i++)
 			new Garbage(i);
-		System.gc();
+		System.gc(); 
 	}
 }
