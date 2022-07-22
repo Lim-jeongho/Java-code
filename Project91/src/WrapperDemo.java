@@ -5,9 +5,9 @@ public class WrapperDemo {
 		double d = bi1.doubleValue();
 		Integer bi2 = 20;
 		int i2 = bi2 + 20;
-		String s1 = Double.toString(3.14);         // double Å¸ÀÔ µ¥ÀÌÅÍ¸¦ StringÅ¸ÀÔÀ¸·Î º¯È¯
-		Double pi = Double.parseDouble("3.14");    // StringÅ¸ÀÔÀ» doubleÅ¸ÀÔÀ¸·Î º¯È¯
-		Integer bi3 = Integer.valueOf("11", 16);   // 16Áø¼ö ¼ıÀÚ ¹®ÀÚ¿­À» 10Áø¼ö IntegerÅ¸ÀÔÀ¸·Î º¯È¯
-		System.out.println(bi3);
+		String s1 = Double.toString(3.14);         // double íƒ€ì… ë°ì´í„°ë¥¼ Stringíƒ€ì…ìœ¼ë¡œ ë³€í™˜
+		Double pi = Double.parseDouble("3.14");    // Stringíƒ€ì…ì„ doubleíƒ€ì…ìœ¼ë¡œ ë³€í™˜
+		Integer bi3 = Integer.valueOf("11", 16);   // 16ì§„ìˆ˜ ìˆ«ì ë¬¸ìì—´ì„ 10ì§„ìˆ˜ Integeríƒ€ì…ìœ¼ë¡œ ë³€í™˜
+		System.out.println(bi3); 
 	}
 }
