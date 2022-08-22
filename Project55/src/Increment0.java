@@ -2,15 +2,15 @@ public class Increment0 {
 
 	public static void main(String[] args) {
 		int[] x = { 0 };
-		System.out.println("È£Ãâ ÀüÀÇ x[0] = " + x[0]);
+		System.out.println("í˜¸ì¶œ ì „ì˜ x[0] = " + x[0]);
 		increment(x);
-		System.out.println("È£Ãâ ÈÄÀÇ x[0] = " + x[0]);
+		System.out.println("í˜¸ì¶œ í›„ì˜ x[0] = " + x[0]);
 	}
 
 	public static void increment(int[] n) {
-		System.out.print("increment() ¸Þ¼­µå ¾È¿¡¼­ ");
+		System.out.print("increment() ë©”ì„œë“œ ì•ˆì—ì„œ ");
 		System.out.print("n[0] = " + n[0] + " --> ");
 		n[0]++;
 		System.out.println("n[0] = " + n[0]);
 	}
-}
+} 
