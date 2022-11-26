@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 public class CollectionsDemo {
-	static void printList(LinkedList<String> 1) {
+	static void printList(LinkedList<String> l) {
 		Iterator<String> iterator = l.iterator();
 		while(iterator.hasNext()) {
 			String e = iterator.next();
@@ -19,16 +19,16 @@ public class CollectionsDemo {
 	
 	public static void main(String[] args) {
 		LinkedList<String> myList = new LinkedList<String>();
-		myList.add("Æ®·£½ºÆ÷¸Ó");
-		myList.add("½ºÅ¸¿öÁî");
-		myList.add("¸ÅÆ®¸¯½º");
-		myList.add(0, "ÅÍ¹Ì³×ÀÌÅÍ");
-		myList.add(2, "¾Æ¹ÙÅ¸");
+		myList.add("íŠ¸ëœìŠ¤í¬ë¨¸");
+		myList.add("ìŠ¤íƒ€ì›Œì¦ˆ");
+		myList.add("ë§¤íŠ¸ë¦­ìŠ¤");
+		myList.add(0, "í„°ë¯¸ë„¤ì´í„°");
+		myList.add(2, "ì•„ë°”íƒ€");
 		Collections.sort(myList);
 		printList(myList);
 		Collections.reverse(myList);
 		printList(myList);
-		int index = Collections.binarySearch(myList, "¾Æ¹ÙÅ¸") + 1;
-		System.out.println("¾Æ¹ÙÅ¸´Â " + index + "¹øÂ° ¿ä¼ÒÀÔ´Ï´Ù.");
+		int index = Collections.binarySearch(myList, "ì•„ë°”íƒ€") + 1;
+		System.out.println("ì•„ë°”íƒ€ëŠ” " + index + "ë²ˆì§¸ ìš”ì†Œì…ë‹ˆë‹¤.");
 	}
 }
