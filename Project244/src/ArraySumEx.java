@@ -9,7 +9,7 @@ public class ArraySumEx {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(bf.readLine());
 		int M = Integer.parseInt(bf.readLine());
-		int[] A = new int[N];
+		int[] A = new int[N];  // 배열 생성
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		for(int i=0; i<N; i++) {
 			A[i] = Integer.parseInt(st.nextToken());
@@ -20,9 +20,9 @@ public class ArraySumEx {
 		int j = N - 1;
 		while(i < j) {
 			if(A[i] + A[j] < M) {
-				i++;
+				i++;  // 앞 배열
 			} else if(A[i] + A[j] > M) {
-				j--;
+				j--;  // 뒷 배열
 			} else {
 				count++;
 				i++;
