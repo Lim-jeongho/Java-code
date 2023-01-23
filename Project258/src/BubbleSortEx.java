@@ -16,7 +16,7 @@ public class BubbleSortEx {
 			A[i] = Integer.parseInt(st.nextToken());
 		}
 		result = 0;
-		merget_sort(1, N);
+		merget_sort(1, N);  // 병합 정렬 수행
 		System.out.println(result);
 	}
 	private static void merget_sort(int s, int e) {
@@ -31,10 +31,10 @@ public class BubbleSortEx {
 		int k = s;
 		int index1 = s;
 		int index2 = m + 1;
-		while(index1 <= m && index2 <= e) {
+		while(index1 <= m && index2 <= e) {  // 두 그룹을 병합하는 로직
 			if(tmp[index1] > tmp[index2]) {
 				A[k] = tmp[index2];
-				result = result + index2 - k;
+				result = result + index2 - k;  // 뒤쪽 데이터 값이 작은 경우 result 업데이트
 				k++;
 				index2++;
 			} else {
